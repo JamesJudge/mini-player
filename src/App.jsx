@@ -18,7 +18,7 @@ const ChatApp = () => {
       />
       <a name="chatStart"/>
       <div className="App-contentPlaceholder" key='0' >
-        <a name="chatStart"></a><iframe src="https://localhost:9000" id="chatFrame" style={{width: '100%', height: '500px'}}/>
+        <a name="chatStart"></a><iframe src="https://chat.videovoyager.org:9000" id="chatFrame" style={{width: '100%', height: '500px'}}/>
       </div>
       {[...Array(5)].map((_, i) => (
         <div className="App-contentPlaceholder" key={i} />
